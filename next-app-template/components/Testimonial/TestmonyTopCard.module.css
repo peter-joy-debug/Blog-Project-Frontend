@@ -1,0 +1,37 @@
+.card {
+    height: rem(440px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1602255680702-c47261041a97?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNtYWxsJTIwZmFtaWx5fGVufDB8fDB8fHww);
+  }
+  
+  .title {
+    font-family:
+      Greycliff CF,
+      var(--mantine-font-family);
+    font-weight: 330;
+    color: var(--mantine-color-white);
+    line-height: 1.2;
+    font-size: rem(28px);
+    margin-top: rem(218);
+    margin-right: rem(-31);
+    margin-left: rem(-31);
+    margin-bottom: rem(0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: rem(12);
+  }
+  
+  .category {
+    color: var(--mantine-color-white);
+    opacity: 0.7;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 50%;
+    padding: 7px;
+    border-radius: 30px;
+  }
